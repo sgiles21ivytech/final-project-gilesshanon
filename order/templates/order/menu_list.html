@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Lattle Longue-Main Menu</title>
+</head>
+<body>
+    <header>
+        <h1><a href="/">Order Menu</a></h1>
+    </header>
+    {% for menu in menu_items %}
+        <menu>
+           <p>{{ menu.name}}</p>
+           <p>{{ menu.description}}</p>
+           <p>{{ menu.price|linebreaksbr}}</p>
+        </menu>
+    {% endfor %}
+</body>
+</html>
