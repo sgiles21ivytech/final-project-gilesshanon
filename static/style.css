@@ -1,0 +1,166 @@
+body {
+    font-family: 'Agu Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: goldenrod;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    margin: 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Layout */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+}
+
+.footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Edgy and Urban Styling */
+
+.section-title {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product-image {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.product-title {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #ff0000;
+}
+
+.button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #cc0000;
+}
+
+/* Navigation and Layout Enhancements */
+
+.order-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: x-large;
+    border: 1px 1px 1px solid #cc0000;
+    box-shadow: 1px 1px 1px 1px brown;
+}
+
+.order-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-category {
+    font-size: 24px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.menu-item {
+    margin: 10px 0;
+}
+
+.menu-item input {
+    width: 50px;
+    margin-left: 10px;
+}
+
+/* Specific Page Enhancements */
+
+.cart-page {
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.cart-page h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.cart-page ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.cart-page li {
+    font-size: 18px;
+}
+
+.cart-page .total-cost {
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cart-page .order-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid #cc0000;
+    box-shadow: 1px 1px 1px 1px brown;
+}
+
+.cart-page .order-nav a {
+    color: #fff;
+    text-decoration: none;
+}

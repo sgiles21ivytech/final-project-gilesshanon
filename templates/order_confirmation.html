@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Agu+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Order Confirmation</h1>
+        <p>Your order has been placed!</p>
+        <h2>Order Summary</h2>
+        <ul>
+            {% for item, quantity in cart_items.items() %}
+                {% for category in menu.values() %}
+                    {% if item in category %}
+                        <li>{{ item }} - ${{ category[item] }} x {{ quantity }} = ${{ category[item] * quantity }}</li>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        </ul>
+        <p><strong>Total Cost:</strong> ${{ total_cost }}</p>
+    </div>
+</body>
+</html>
