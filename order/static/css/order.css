@@ -22,8 +22,6 @@ p,
 a {
     font-family: Agu Display;
     color: goldenrod;
-
-
 }
 
 
@@ -31,10 +29,6 @@ a {
     float: right;
 }
 
-.post-form textarea,
-.post-form input {
-    width: 100%;
-}
 
 .top-menu,
 .top-menu:hover,
