@@ -1,0 +1,13 @@
+{% extends 'order/base.html' %}
+
+{% block content %}
+    <menu class="menu">
+        {% if menu.description %}
+            <details class="details">
+                {{ menu.description }}  
+            </details>
+        {% endif %}
+        <h2>{{ menu.name }}</h2>
+        <p>{{ menu.price|linebreaksbr }}</p>
+    </menu>
+{% endblock %}
